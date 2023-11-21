@@ -20,7 +20,7 @@
   </li>
   <li><strong>Run the App:</strong>
     <p>Execute the following command to start the app:</p>
-    <pre><code>streamlit run app.py</code></pre>
+    <pre><code>streamlit run newsapp.py</code></pre>
   </li>
   <li><strong>Login:</strong>
     <ul>
