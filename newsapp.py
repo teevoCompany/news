@@ -3,9 +3,29 @@ import streamlit as st
 from constants import *
 from utils import get_client
 
+st.set_page_config(
+    page_title='Media News Monitoring',
+    page_icon='logo.png',  # Replace with the path to your icon image file
+    layout='wide',
+    initial_sidebar_state='expanded'
+)
 
+# Displaying the logo in the sidebar
+logo = 'logo.png'  # Replace with the path to your logo image file
+st.sidebar.image(logo, width=100)
 
-st.set_page_config(page_title='Media Monitoring', page_icon="📰", layout='wide', initial_sidebar_state='expanded')
+# Adding text with links in the sidebar
+st.sidebar.markdown(
+    """
+    This App Is Powerd and Develop By: TEEVO AI
+
+    📞  : [whastapp](https://wa.me/081382571197)  
+    ✉️  : [cliffert@teevo.io](mailto:cliffert@teevo.io)  
+    🌎  : [teevo.io](https://teevo.io)
+    """
+)
+
+# Rest of your Streamlit app code goes here
 
 # Define users for login
 users = {"admin": "media1"}  # Add more users if needed
