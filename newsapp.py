@@ -28,7 +28,7 @@ st.sidebar.markdown(
 # Rest of your Streamlit app code goes here
 
 # Define users for login
-users = {"admin": "----"}  # Add more users if needed
+users = {"admin": "media1"}  # Add more users if needed
 
 # Login function
 def login():
